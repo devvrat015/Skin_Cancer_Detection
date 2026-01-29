@@ -1,0 +1,45 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Data
+data/raw/
+data/processed/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# OS
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model checkpoints and outputs
+*.pth
+*.pt
+*.ckpt
+models/checkpoints/
+outputs/
