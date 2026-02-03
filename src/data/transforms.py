@@ -3,8 +3,8 @@ from torchvision import transforms
 # Training transforms (with augmentation)
 train_transforms = transforms.Compose([
     transforms.Resize((224, 224)),          # ResNet-50 input size
-    transforms.RandomHorizontalFlip(),       # augmentation
-    transforms.RandomRotation(10),            # augmentation
+   # transforms.RandomHorizontalFlip(),       # augmentation
+    #transforms.RandomRotation(10),            # augmentation
     transforms.ToTensor(),                    # convert to tensor
     transforms.Normalize(
         mean=[0.485, 0.456, 0.406],           # ImageNet mean
